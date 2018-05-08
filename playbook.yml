@@ -1,0 +1,20 @@
+---
+  - hosts: unprovisioned
+    roles:
+      - prepare
+    tasks:
+    gather_facts: no
+
+  - hosts: unprovisioned
+    roles:
+      - hostname
+      - user
+      - ssh-server
+
+  # A virtual Private Server
+  - hosts: vps
+    roles:
+    - { role: my-debian, tags: ['my-debian'] }
+    - { role: backup, tags: ['backup'] }
+    - { role: docker, tags: ['docker'] }
+    #- { role: reverseproxy, tags: ['reverseproxy'] }

@@ -1,0 +1,8 @@
+[unprovisioned]
+asososca.local ansible_host=123.456.789.1 ansible_port=22 ansible_user=root secure_ssh_port=2222
+
+[unprovisioned:vars]
+ssh_authorized_keys="https://felix.delattre.de/felix-delattre-de_ssh-public-key.pub"
+
+[vps]
+asososca ansible_host=123.456.789.1	ansible_port=2222 ansible_user=user ansible_become=yes

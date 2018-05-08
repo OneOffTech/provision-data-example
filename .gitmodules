@@ -1,0 +1,33 @@
+[submodule "roles/backup"]
+	path = roles/backup
+	url = https://github.com/xamanu/ansible-role-backup.git
+[submodule "roles/docker"]
+	path = roles/docker
+	url = https://github.com/xamanu/ansible-role-docker.git
+[submodule "roles/i3"]
+	path = roles/i3
+	url = https://github.com/xamanu/ansible-role-i3.git
+[submodule "roles/jitsi-meet"]
+	path = roles/jitsi-meet
+	url = https://github.com/xamanu/ansible-role-jitsi-meet.git
+[submodule "roles/my-debian"]
+	path = roles/my-debian
+	url = https://github.com/xamanu/ansible-role-my-debian.git
+[submodule "roles/prepare"]
+	path = roles/prepare
+	url = https://github.com/xamanu/ansible-role-prepare.git
+[submodule "roles/reverseproxy"]
+	path = roles/reverseproxy
+	url = https://github.com/xamanu/ansible-role-reverseproxy.git
+[submodule "roles/vagrant"]
+	path = roles/vagrant
+	url = https://github.com/xamanu/ansible-role-vagrant.git
+[submodule "roles/user"]
+	path = roles/user
+	url = https://git.delattre.de/xamanu/ansible-role-user.git
+[submodule "roles/hostname"]
+	path = roles/hostname
+	url = https://git.delattre.de/xamanu/ansible-role-hostname.git
+[submodule "roles/ssh-server"]
+	path = roles/ssh-server
+	url = https://git.delattre.de/xamanu/ansible-role-ssh-server.git
